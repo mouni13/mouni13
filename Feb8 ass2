@@ -1,27 +1,9 @@
 #comparison operators
 a=int(input('enter a:'))
 b=int(input('enter b:'))
-if(a>b)
-Print(true)
-Else
-Print(false)
-if(a<b)
-Print(true)
-Else
-Print(false)
-if(a>=b)
-Print(true)
-Else
-Print(false)
-if(a<=b)
-Print(true)
-Else
-Print(false)
-if(a==b)
-Print(true)
-Else
-Print(false)
-if(a!=b)
-Print(true)
-Else
-Print(false)
+Print(a>b)
+Print(a<b)
+Print(a>=b)
+Print(a<=b)
+Print(a==b)
+Print(a!=b)
