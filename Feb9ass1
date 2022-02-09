@@ -1,0 +1,7 @@
+P=input('enter program name') 
+a=int(input('enter a:')) 
+b=int(input('enter b:')) 
+if a>b: 
+   Print(a is bigger)
+else:
+   Print(b is bigger)
