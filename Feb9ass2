@@ -1,0 +1,6 @@
+P=input(' enter program name') 
+num=int(input('enter a number:') 
+if(num % 2)==0:
+   Print(number is even)
+else:
+   Print(number is odd)
