@@ -1,0 +1,14 @@
+P=input('enter program name:') 
+Same=input('enter name:') 
+Srollno= int(input('enter rollno:)) 
+Sgroup=input('enter group:') 
+S1=int(input('enter English marks:') 
+S2=int(input('enter Telugu marks:') 
+S3=int(input,('enter maths marks:') 
+S4=int(input('enter stat marks:')
+S5=int(input('enter cs marks:')
+S6=int(input('enter survey marks:') 
+if S1>=35 and S2>=35 and S3>=35 and S4>=35 and S5>=35 and S6>=35:
+   Print('pass')
+else: 
+   print('fail') 
