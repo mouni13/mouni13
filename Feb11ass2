@@ -1,0 +1,29 @@
+P=input('enter program name:') 
+Sno=int(input('enter sname'))
+Sname=input('enter sname') 
+Sgroup=input('enter group') 
+S1=int(input('s1 marks')) 
+S2=int(input('s2 marks')) 
+S3=int(input('s3 marks')) 
+S4=int(input('s4 marks')) 
+S5=int(input('s5 marks')) 
+S6=int(input('s6 marks')) 
+if S1>=35 and S2>=35 and S3>=35 and S4>=35 and s5>=35 and S6>=35:
+  Print(pass)
+total=S1+S2+S3+S4+S5+S6
+Avg=total/3 
+if avg>=91:
+  Print('o-grade') 
+elif avg>=81:
+  print('A-grade')
+elif avg>=71:
+  Print('B-grade') 
+elif avg>=61:
+  Print('c-grade') 
+elif avg>=51:
+  Print('D-grade')
+elif avg>=36:
+  Print('just pass')
+Else:
+  Print('fail')
+  
