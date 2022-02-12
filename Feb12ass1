@@ -1,0 +1,27 @@
+
+cname=input('enter name:')
+cphno=('enter phno')
+sq=int(input('enter no of sugar packets:'))
+oq=int(input('enter no of oil packets:'))
+cq=int(input('enter no of chocolate packets:'))
+bq=int(input('enter no of biscut packets:'))
+soq=int(input('enter no of soaps sets:'))
+sq=int(input('enter no of salt packets:'))
+bill=(s*sq)+(o*oq)+(c*cq)+(b*bq)+(so*soq)+(sa*saq)
+if bill>=5000:
+    dis=bill*10/100
+    tax=bill*10/100
+elif bill>=3000:
+    dis=bill*8/100
+    tax=bill*10/100
+elif bill>=2000:
+    dis=bill*5/100
+    tax=bill*18/100
+elif bil>=1000:
+    dis= bill *3/100
+    tax=bill*18/100
+else: 
+    print('invalid')
+mainbill=bill-dis+tax
+print('bill amount:',mainbill)
+
