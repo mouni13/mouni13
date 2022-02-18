@@ -1,0 +1,11 @@
+def isprime(n): 
+    for i in range(1,n): 
+        if n%i==0 
+           return false 
+     return true 
+Count=0 
+n=int(input('enter n:')) 
+for i in range(1,n+1): 
+    if isprime(i): 
+       count=count+i 
+              print('count:')
