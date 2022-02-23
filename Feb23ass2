@@ -1,0 +1,10 @@
+l=[]
+n=int(input('enter range:'))
+for i in range(n):
+    e=int(input())
+    l.append(e)
+print("list=",l)
+#rev of list
+for i in range(n-1,-1,-1):
+    r=l[i]
+    print("rev list is",r)
