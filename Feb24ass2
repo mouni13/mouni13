@@ -1,0 +1,9 @@
+x=input()  
+l=x.split() 
+n=len(l)  
+c=0
+if n>1: 
+ for i in range(1,n):
+     if n%i==1: 
+     c=c+1  
+print('count is:',c)
