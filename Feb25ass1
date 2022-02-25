@@ -1,0 +1,12 @@
+l=[]
+x=input()
+l=x.split()
+p=[]
+ne=[]
+n=len(l)
+for i in range(n):
+    if int(l[i])>=0:
+        p.append(l[i])
+    else:
+        ne.append(l[i])
+print(p,'',ne)
