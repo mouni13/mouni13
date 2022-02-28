@@ -1,0 +1,11 @@
+x=[1,2,3,2,1,3,2,1,2,2,2,3] 
+list=[] 
+list1=[] 
+list2=[] 
+for i in x:  
+    if i not in list:  
+       list.append(i) 
+       list1.append(x.count(i)) 
+    if x.count(i)%2!=0:  
+       list2.append(i) 
+print(list2)
