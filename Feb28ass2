@@ -1,0 +1,6 @@
+l=[3,5,3,6,7] 
+list1=[] 
+for i in l: 
+    if i not in list1: 
+         list.append(i) 
+print(list1)
