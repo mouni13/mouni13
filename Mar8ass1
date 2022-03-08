@@ -1,0 +1,8 @@
+s=input() 
+count=0 
+l=s 
+vowel=['a','e','i','o','u'] 
+for i in l: 
+    if i not in vowel:  
+        count=count+1 
+print(count)
