@@ -1,0 +1,16 @@
+string = input('enter string:')
+alphabets=0 
+digits=0 
+special=0
+
+for i in range(len(string)):
+    if(string[i].isalpha()):
+        alphabets = alphabets + 1
+    elif(string[i].isdigit()):
+        digits = digits + 1
+    else:
+        special = special + 1
+        
+print('no.of alphabets:' , alphabets)
+print(' no.of digits:', digits)
+print('no.of characters:',special)
