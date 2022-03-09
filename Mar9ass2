@@ -1,0 +1,4 @@
+test_str=" aditya educational institutions,aditya group" 
+test_sub=" aditya" 
+print(" original string is:"+test_str) 
+print("sunstring is:"+test_sub)
